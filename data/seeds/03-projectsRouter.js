@@ -63,7 +63,7 @@ router.post('/:id/actions', (req, res) => {
             res.status(200).json(created);
         })
         .catch(err => {
-            res.status(500).json({error: "There was an issue adding actions."})
+            res.status(500).json({error: "There was an issue adding actions.(Check that the specifed ID and project_id match an existing project ID.)"})
         })
 })
 
