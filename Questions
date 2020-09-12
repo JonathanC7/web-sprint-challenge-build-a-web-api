@@ -1,0 +1,21 @@
+The core features of Node.js and Express and why they are useful.
+    The core features for Node.js is to give you an environment to be able to code 
+    fast and scalable applications in. Express is used to make quick and accesible 
+    servers, so that it may be accessed by anyone.
+
+Understand and explain the use of Middleware?
+    Middleware is used to have data come in and pass through functions that either 
+    modify the code, or check that it meets certain standards before returning.
+
+The basic principles of the REST architectural style.
+    It's a style used to design applications that is often used on web services.
+    It's very flexible at a lower level but tends to have the applications be
+    standardized at a certain higher level.
+
+Understand and explain the use of Express Routers.
+    The Express Routers are used to clean up your code. So you can separate similarly
+    purposed code.
+
+Describe tooling used to manually test the correctness of an API.
+    Postman although tedious lets you test your requests, you can choose the type of 
+    request and add a body to it if you'd like.
